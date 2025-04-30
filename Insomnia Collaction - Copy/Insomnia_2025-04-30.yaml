@@ -1,0 +1,125 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_343bd2659ec54065ad620e503d981f63
+  created: 1745660184218
+  modified: 1745660184218
+collection:
+  - url: localhost:8011/staffs/
+    name: New Request
+    meta:
+      id: req_0a5ef457961949fd8e36ab3245922791
+      created: 1745660192859
+      modified: 1746004517890
+      isPrivate: false
+      sortKey: -1745660192859
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        	{
+        		"id": 7,
+        		"name": "Abdi Updated",
+        		"position": "Updated CEO"
+        	}
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8011/staffs/all
+    name: New Request
+    meta:
+      id: req_7a7b1dc737dd411fa2ff141fced66c10
+      created: 1745660204354
+      modified: 1746004295986
+      isPrivate: false
+      sortKey: -1745660204354
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8011/staffs/3
+    name: New Request
+    meta:
+      id: req_defaf1a7a7d1452b99eb0a310e72b748
+      created: 1745699112750
+      modified: 1746004188844
+      isPrivate: false
+      sortKey: -1745699112750
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |+
+        {
+          "name": "Nuur",
+          "position": " SEO"
+        }
+
+    parameters:
+      - id: pair_f17ade165aa54565a0e751f07156be71
+        disabled: false
+      - id: pair_05df095a12eb4624bda3a2862256f8a6
+        disabled: false
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8011/staffs/3
+    name: New Request
+    meta:
+      id: req_97cdaba4fd41447d8ca14cf89434c711
+      created: 1746004535489
+      modified: 1746004559713
+      isPrivate: false
+      sortKey: -1746004535489
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_131bb5ef1c6a40ddcfe713fafb6ec3ed877447f7
+    created: 1745660184234
+    modified: 1745660184234
+environments:
+  name: Base Environment
+  meta:
+    id: env_131bb5ef1c6a40ddcfe713fafb6ec3ed877447f7
+    created: 1745660184227
+    modified: 1745660184227
+    isPrivate: false
